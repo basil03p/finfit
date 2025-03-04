@@ -1,26 +1,26 @@
 import 'package:flutter/material.dart';
-import 'login.dart';
-import 'signup.dart';
-import 'after_login.dart'; // Import the after-login screen
+import 'loginpage.dart';
+import 'signuppage.dart';
+import 'homepage.dart';
+import 'nut.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Hides the debug banner
-      title: 'FinFit',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
-        '/': (context) => LoginWidget(),
-        '/signup': (context) => SignupWidget(),
-        '/after': (context) => AfterLoginScreen(), // Added this route
+        '/': (context) => LoginPage(),
+        '/signup': (context) => SignUpPage(),
+        '/home': (context) => HomePage(),
+        '/nut': (context) => NutritionApp(),
       },
     );
   }

@@ -30,7 +30,7 @@ class _LoginWidgetState extends State<LoginWidget> {
     final email = emailController.text;
     final password = passwordController.text;
 
-    if (email == 'test@example.com' && password == 'password123') {
+    if (email == 'sample@gmail.com' && password == '12345') {
       Navigator.pushReplacementNamed(context, '/after');
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -59,7 +59,9 @@ class _LoginWidgetState extends State<LoginWidget> {
               decoration: InputDecoration(
                 labelText: 'Password',
                 suffixIcon: IconButton(
-                  icon: Icon(passwordVisible ? Icons.visibility : Icons.visibility_off),
+                  icon: Icon(passwordVisible
+                      ? Icons.visibility
+                      : Icons.visibility_off),
                   onPressed: () {
                     setState(() {
                       passwordVisible = !passwordVisible;
