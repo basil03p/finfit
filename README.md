@@ -2,9 +2,6 @@
 
 A comprehensive Flutter application that seamlessly integrates **fitness tracking**, **nutrition management**, and **personal finance** into one powerful platform. FinFit helps users maintain a healthy lifestyle while keeping their finances in check.
 
-> **Repository**: [https://github.com/Christinvs12/finfit](https://github.com/Christinvs12/finfit)  
-> **Original Author**: [@Christinvs12](https://github.com/Christinvs12)
-
 ## ✨ Features
 
 ### 🏃‍♂️ Fitness & Workout Management
@@ -69,7 +66,7 @@ A comprehensive Flutter application that seamlessly integrates **fitness trackin
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/Christinvs12/finfit.git
+   git clone https://github.com/yourusername/finfit.git
    cd finfit
    ```
 
@@ -142,27 +139,11 @@ users/{userId}/
 
 ## 🤝 Contributing
 
-We welcome contributions to FinFit! This project is actively maintained and we appreciate any help to make it better.
-
-### How to Contribute
-
-1. Fork the repository from [https://github.com/Christinvs12/finfit](https://github.com/Christinvs12/finfit)
+1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request to the main repository
-
-### Contribution Guidelines
-
-- Follow Flutter best practices and coding standards
-- Test your changes thoroughly before submitting
-- Update documentation if your changes affect user-facing features
-- Keep commits focused and provide clear commit messages
-- Ensure your code works across different platforms (Android, iOS, Web)
-
-### Issues and Bug Reports
-
-If you find a bug or have a feature request, please open an issue at [https://github.com/Christinvs12/finfit/issues](https://github.com/Christinvs12/finfit/issues)
+5. Open a Pull Request
 
 ## 📄 License
 
@@ -178,14 +159,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, please open an issue in the GitHub repository at [https://github.com/Christinvs12/finfit/issues](https://github.com/Christinvs12/finfit/issues) or contact the development team.
-
-### Getting Help
-
-- **Bug Reports**: Use the issue tracker for bug reports with detailed information
-- **Feature Requests**: Submit feature requests through GitHub issues
-- **Documentation**: Check this README and code comments for implementation details
-- **Community**: Engage with other contributors through GitHub discussions
+For support, please open an issue in the GitHub repository or contact the development team.
 
 ---
 
